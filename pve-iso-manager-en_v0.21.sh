@@ -4,7 +4,7 @@
 # Initial Date: 07/01/2025
 # Update Date: 07/02/2025
 # Version : v0.21
-# Auther: Mark Lin 
+# Auther: Mark Lin / Claude AI Sonnet4
 #########################################################################
 # Configuration file path
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -37,7 +37,7 @@ DEFAULT_CONFIG='{
         "1": {
           "name": "Win2008R2-ISO",
           "label": "Windows 2008 R2",
-          "nfs_server": "10.160.88.33",
+          "nfs_server": "192.168.1.1",
           "nfs_export": "/OSimg/Windows/Win2008/WS2008R2",
           "mount_base": "/mnt/win2008r2-iso",
           "mount_target": "/mnt/win2008r2-iso/template/iso"
