@@ -24,7 +24,7 @@ DEFAULT_CONFIG='{
         "1": {
           "name": "ROCKY9-ISO",
           "label": "Rocky Linux 9",
-          "nfs_server": "10.160.88.33",
+          "nfs_server": "192.168.1.1",
           "nfs_export": "/OSimg/Linux/Rocky_Linux/Rocky_Linux_9",
           "mount_base": "/mnt/rocky9-iso",
           "mount_target": "/mnt/rocky9-iso/template/iso"
