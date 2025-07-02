@@ -1,6 +1,8 @@
 # PVE-ISO-Mount
 
-For PVE ISO mount with Read Only NFS share folder.
+License: copyleft@2025 </br>
+====================== </br>
+For PVE ISO mount with Read Only NFS share folder. </br>
 Required package: jq , # apt install jq </br>
 Please change the NFS server IP from  192.168.1.1 to your NFS server IP before use. </br>
 Usage: </br>
