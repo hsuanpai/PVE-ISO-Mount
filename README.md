@@ -1,11 +1,12 @@
 # PVE-ISO-Mount
 
 For PVE ISO mount with Read Only NFS share folder.
-Usage:
-chmod +x pve-iso-manager-en_v0.21.sh
-or
-bash pve-iso-manager-en_v0.21.sh (without change file permission.)
+Usage: </br>
+chmod +x pve-iso-manager-en_v0.21.sh </br>
+or </br>
+bash pve-iso-manager-en_v0.21.sh (without change file permission.) </br>
+</br>
+Tested OS: PVE 8.4.1 </br>
+-----</br>
+Continue updating... </br>
 
-Tested OS: PVE 8.4.1
------
-Continue updating...
