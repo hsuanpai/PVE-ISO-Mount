@@ -4,7 +4,7 @@
 # Initial Date: 07/01/2025
 # Update Date: 07/02/2025
 # Version : v0.21
-# Auther: Mark Lin / Claude AI Sonnet4
+# Auther: Mark (Maruku) Lin / Claude AI Sonnet4
 #########################################################################
 # Configuration file path
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
