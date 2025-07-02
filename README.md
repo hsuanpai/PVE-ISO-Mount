@@ -9,7 +9,8 @@ or </br>
 bash pve-iso-manager-en_v0.21.sh (without change file permission.) </br>
 </br>
 Tested OS: PVE 8.4.1 </br>
-
+After running with have 1 file in /etc/pve/ </br> 
+Filename Path: /etc/pve/iso-mount-config.json </br>
 -----</br>
 Continue updating... </br>
 
