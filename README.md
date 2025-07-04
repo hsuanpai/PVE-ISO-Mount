@@ -1,7 +1,13 @@
-# PVE-ISO-Mount
-
+# PVE-ISO-Mount</br>
+=====[Story]==========</br>
+Due to the NFS share folder for ISO image almost is read only. But Proxmox VE can't mount with read only NFS folder.</br>
+Because the directory structure need have template/iso for ISO mount(Need write permission). </br>
+So, I created this script with Claude AI togther.</br>
+</br>
+====================== </br>
 License: copyleft@2025 </br>
 ====================== </br>
+</br>
 For PVE ISO mount with Read Only NFS share folder. </br>
 Required package: jq , # apt install jq </br>
 Please change the NFS server IP from  192.168.1.1 to your NFS server IP before use. </br>
@@ -15,6 +21,7 @@ Tested OS: PVE 8.4.1 </br>
 After running with have 1 file in /etc/pve/ </br> 
 Filename & Path: /etc/pve/iso-mount-config.json </br>
 Video Demo: https://www.youtube.com/watch?v=X1izB03Q4E8 </br>
+</br>
 ========================================================</br>
 Script MD5SUM:</br>
 ========================================================</br>
@@ -23,6 +30,7 @@ md5sum pve-iso-manager-en_v0.21.sh</br>
 ========================================================</br>
 md5sum pve-iso-manager-en_v0.22.sh</br>
 d2772f1e4de5ef300ca021ce6062f319  pve-iso-manager-en_v0.22.sh</br>
+</br>
 ========================================================</br>
 Version Change History:</br>
 ========================================================</br>
